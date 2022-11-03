@@ -12,7 +12,7 @@ router.get("/", (req, res) => {
 
 
 router.post("/", (req, res) => {
-let addPost = 
+res.status(200).json(result)
 })
 
 router.put("/", (req, res) =>{
@@ -27,7 +27,8 @@ router.put("/", (req, res) =>{
 
 
 router.delete("/", (req, res) => {
-    
+    res.status(200).json(result)
+
 })
 
 
